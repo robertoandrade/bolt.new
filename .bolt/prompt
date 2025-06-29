@@ -1,0 +1,1 @@
+this project uses pnpm as package manager, as defined in package.json, as such make sure to run any npm command with pnpm instead.
