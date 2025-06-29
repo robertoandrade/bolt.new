@@ -7,7 +7,7 @@
   "sideEffects": false,
   "type": "module",
   "scripts": {
-    "preinstall": "rm -rf node_modules && npx only-allow pnpm",
+    "preinstall": "npx only-allow pnpm || rm -rf node_modules",
     "deploy": "npm run build && wrangler pages deploy",
     "build": "remix vite:build",
     "dev": "remix vite:dev",
